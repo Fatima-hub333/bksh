@@ -1,13 +1,209 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.head-row {
+  border-bottom: 1px solid #C0C0C0;
+  padding: 30px;
 }
+
+.rightCol {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bakss-h4 {
+  color: #000000;
+  margin-left: 39px;
+}
+
+.addProperty-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  background: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  border-radius: 19px;
+}
+
+.mnu-div {
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  border-radius: 19px;
+  width: 66px;
+  margin-left: 12px;
+}
+
+.mnu-btn {
+  margin-top: 4px;
+  background: #FFFFFF;
+  margin-left: 5px;
+  height: 23px;
+  border: none;
+}
+/* Header End Here */
+.discover{
+  display: flex;
+  justify-content: center;
+}
+.discover h1{
+  font-size: 27px;
+  margin-left: 7px;
+}
+.place {
+  color: orange;
+}
+
+.discover-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyrent-col {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-btn {
+  padding: 8px 34px;
+  font-size: 18px;
+  border: 1px solid #717171;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+}
+.buyrent-btn{
+  display: flex;
+  justify-content: center;
+}
+.rent-btn {
+  padding: 8px 34px;
+  font-size: 16.5px;
+  border: 1px solid #717171;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  margin-left: 12px;
+}
+.rent-btn:focus{
+  background: #222222;
+  color: #FFFFFF;
+}
+.buy-btn:focus{
+  background: #222222;
+  color: #FFFFFF;
+}
+.buy-btn:focus{
+  background: #222222;
+  color: #FFFFFF;
+} 
+/* Discover header and buttons End Here */
+.location-row{
+  display: flex;
+  justify-content: center;
+ 
+}
+.location-col{
+  border: 1px solid #717171;
+  border-radius: 50px;
+ padding: 8px
+}
+.loc{
+  display: block;
+}
+.loc h4{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.loc p{
+  margin-bottom: 0px;
+}
+.pro{
+  display: block;
+}
+.pro h4{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.pro p{
+  margin-bottom: 0px;
+}
+.col-b{
+  display: flex;
+  align-items: center;
+}
+.col-search{
+  display: flex;
+  align-items: center;
+}
+/* Location property End Here */
+
+.box-col{
+  padding: 4px 12px;
+  border: 1px solid #717171;
+  border-radius: 10px;
+}
+.Sumit-h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Little box End Here */
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .ee{
+    display: none;}
+  .discover h1{
+    font-size: 45px;
+    margin-left: 33px;
+    color: #C0C0C0;
+    font-weight: lighter;
+  }
+  .rent-btn{
+    margin-left:0px;
+  }
+  .col-b{
+    display: none;
+  }
+  .loc{
+    display: none;
+  }
+  .pro{
+    display: none;
+  }
+  .col-search{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bulits img{
+    display: none;
+  }
+  .wanted{
+    margin-top: 5px;
+    color: #717171;
+  }
+  .bulit{
+    display: none;
+  }
+}
+@media only screen and (min-width: 994px) {
+
+.bulits{
+  display: none;
+}}
+
+
+
+
+
